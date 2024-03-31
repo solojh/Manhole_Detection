@@ -1,0 +1,17 @@
+body {
+    background: rgb(252, 199, 146);
+    margin-top: 50px;
+    margin-left: 100px;
+    }
+   
+  h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2.5em;
+    color: rgb(70, 49, 49);
+    }
+   
+  p {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    color: DarkSlateGray;
+    }

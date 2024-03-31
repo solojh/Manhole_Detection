@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Manhole Prediction</title>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+</head>
+<body>
+    <h1>Upload and display image</h1>
+    <p>Show image in html</p>
+ 
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" id="myFile" name="uploaded-file" accept=".png, .jpg, .jpeg" multiple>
+        <input type="submit" value="Submit">
+    </form>
+    <p style="color:green;">File uploaded successfully</p>
+    <form action="/show_image" target="_blank">
+        <input type="submit" value="Display Image and Prediction Result" />
+    </form>
+  </body>
+</html>
